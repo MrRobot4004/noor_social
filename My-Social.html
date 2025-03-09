@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noor Phone</title>
+  <!-- تضمين أيقونات Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 50px;
+      background-color: #000000;
+      direction: rtl;
+    }
+    /* عنوان h1 بتأثير اللون الذهبي المضيء */
+    h1 {
+      color: gold;
+      font-size: 60px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700;
+      animation: glow 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700;
+      }
+      to {
+        text-shadow: 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 50px #ffd700;
+      }
+    }
+    /* عنوان h2 لروابطي الاجتماعية */
+    h2 {
+      font-size: 40px;
+      color: rgb(131, 130, 110);
+      font-size: 40px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #000000, 0 0 20px #ffffff, 0 0 30px #000000, 0 0 40px #000000;
+      margin-bottom: 40px;
+    }
+    h3 {
+      font-size: 40px;
+      color: rgb(131, 130, 110);
+      font-size: 40px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #000000, 0 0 20px #ffffff, 0 0 30px #000000, 0 0 40px #000000;
+      margin-bottom: 40px;
+    }
+    .icon-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .icon-container a, .icon-container span {
+      text-decoration: none;
+      color: #ffd000;
+      font-size: 50px;
+      transition: color 0.3s;
+    }
+    .icon-container a:hover, .icon-container span:hover {
+      color: #007bff;
+    }
+    .instapay-address {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- العنوان الرئيسي -->
+  <h1>Noor Phone</h1>
+  <!-- عنوان روابط الاجتماعية -->
+  <h2>Contact With Us</h2>
+  <h3>تواصل معنا</h3>
+  <div class="icon-container">
+    <!-- أيقونة فيسبوك -->
+    <a href="https://www.fb.com/profile.php?id=100015351782358" target="_blank" title="فيسبوك">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <!-- أيقونة انستجرام -->
+    <a href="https://www.instagram.com/nour__alliii" target="_blank" title="انستجرام">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <!-- أيقونة واتساب -->
+    <a href="https://wa.me/201010025490" target="_blank" title="واتساب">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- أيقونة Instapay -->
+    <span title="Instapay">
+      <i class="fas fa-money-check-alt"></i>
+    </span>
+    <!-- أيقونة الموقع -->
+    <a href="https://www.google.com/maps?q=29.3425846099854,31.2071018218994" target="_blank" title="الموقع">
+      <i class="fas fa-map-marker-alt"></i>
+    </a>
+  </div>
+  <!-- عرض عنوان Instapay -->
+  <div class="instapay-address">
+    Instapay: nourtotti20@instapay
+  </div>
+</body>
+</html>
